@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:gravity="center"
+    android:id="@+id/alumni1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:outlineProvider="none"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/circle"
+        android:layout_margin="10dp"
+
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@android:drawable/ic_menu_report_image" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5sp"
+        android:text="Name:DoctorName \nCategory: Dentist"
+        android:textSize="16dp" />
+
+</LinearLayout>
